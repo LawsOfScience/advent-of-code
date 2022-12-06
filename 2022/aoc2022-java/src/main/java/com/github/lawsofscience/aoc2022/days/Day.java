@@ -2,14 +2,12 @@ package com.github.lawsofscience.aoc2022.days;
 
 import com.github.lawsofscience.aoc2022.InputFetcher;
 
-import java.io.BufferedReader;
-
 public abstract class Day {
-    protected BufferedReader input;
+    protected InputFetcher inputFetcher;
     protected boolean testMode;
 
     public Day(InputFetcher fetcher, boolean testMode) {
-        this.input = fetcher.getInput();
+        this.inputFetcher = fetcher;
         this.testMode = testMode;
     }
 
