@@ -7,8 +7,8 @@ import java.util.OptionalInt;
 import java.util.stream.IntStream;
 
 public class Day1 extends Day {
-    public Day1(InputFetcher fetcher, boolean testMode) {
-        super(fetcher, testMode);
+    public Day1(InputFetcher fetcher) {
+        super(fetcher);
     }
 
     private IntStream getCalorieSums() {
