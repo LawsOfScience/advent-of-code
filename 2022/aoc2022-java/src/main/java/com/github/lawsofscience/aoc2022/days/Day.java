@@ -4,11 +4,9 @@ import com.github.lawsofscience.aoc2022.InputFetcher;
 
 public abstract class Day {
     protected InputFetcher inputFetcher;
-    protected boolean testMode;
 
-    public Day(InputFetcher fetcher, boolean testMode) {
+    public Day(InputFetcher fetcher) {
         this.inputFetcher = fetcher;
-        this.testMode = testMode;
     }
 
     public abstract void solvePart1();
