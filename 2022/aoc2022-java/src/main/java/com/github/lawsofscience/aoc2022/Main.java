@@ -1,9 +1,6 @@
 package com.github.lawsofscience.aoc2022;
 
-import com.github.lawsofscience.aoc2022.days.Day1;
-import com.github.lawsofscience.aoc2022.days.Day2;
-import com.github.lawsofscience.aoc2022.days.Day3;
-import com.github.lawsofscience.aoc2022.days.Day4;
+import com.github.lawsofscience.aoc2022.days.*;
 
 import java.io.IOException;
 
@@ -21,10 +18,14 @@ public class Main {
         Day3 day3 = new Day3(new InputFetcher(3, false));
         day3.solvePart1();
         day3.solvePart2();
-         */
 
         Day4 day4 = new Day4(new InputFetcher(4, false));
         day4.solvePart1();
         day4.solvePart2();
+         */
+
+        Day5 day5 = new Day5(new InputFetcher(5, false));
+        day5.solvePart1();
+        day5.solvePart2();
     }
 }
