@@ -22,10 +22,14 @@ public class Main {
         Day4 day4 = new Day4(new InputFetcher(4, false));
         day4.solvePart1();
         day4.solvePart2();
-         */
 
         Day5 day5 = new Day5(new InputFetcher(5, false));
         day5.solvePart1();
         day5.solvePart2();
+         */
+
+        Day6 day6 = new Day6(new InputFetcher(6, false));
+        day6.solvePart1();
+        day6.solvePart2();
     }
 }
