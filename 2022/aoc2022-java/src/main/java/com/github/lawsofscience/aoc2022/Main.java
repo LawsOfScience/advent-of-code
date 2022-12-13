@@ -26,10 +26,14 @@ public class Main {
         Day5 day5 = new Day5(new InputFetcher(5, false));
         day5.solvePart1();
         day5.solvePart2();
-         */
 
         Day6 day6 = new Day6(new InputFetcher(6, false));
         day6.solvePart1();
         day6.solvePart2();
+         */
+
+        Day7 day7 = new Day7(new InputFetcher(7, false));
+        day7.solvePart1();
+        day7.solvePart2();
     }
 }
